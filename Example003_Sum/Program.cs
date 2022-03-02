@@ -5,5 +5,4 @@ Console.Write("numberA=");
 Console.WriteLine(numberA);
 Console.Write("numberB=");
 Console.WriteLine(numberB);
-Console.Write("result=");
-Console.WriteLine(result);
+Console.Write("result=" + result);
