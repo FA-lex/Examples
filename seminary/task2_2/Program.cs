@@ -22,7 +22,7 @@ else if (koordX < 0 && koordY < 0)
 {
     Console.WriteLine("точка принадлежит 3-й координатой четверти");
 }
-else (koordX > 0 && koordY < 0)
+else if(koordX > 0 && koordY < 0)
 {
     Console.WriteLine("точка принадлежит 4-й координатой четверти");
 }
