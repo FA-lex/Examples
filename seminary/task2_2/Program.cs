@@ -3,6 +3,7 @@
 // причем X ≠ 0 и Y ≠ 0
 
 Console.WriteLine("Для определения номера четверти плоскости, в которой находится точка введите координатаы Х и У ");
+Console.WriteLine("X ≠ 0 и Y ≠ 0 ");
 Console.Write("X: ");
 int koordX = Convert.ToInt32(Console.ReadLine());
 
@@ -21,19 +22,7 @@ else if (koordX < 0 && koordY < 0)
 {
     Console.WriteLine("точка принадлежит 3-й координатой четверти");
 }
-else if (koordX > 0 && koordY < 0)
+else (koordX > 0 && koordY < 0)
 {
     Console.WriteLine("точка принадлежит 4-й координатой четверти");
-}
-else if (koordX == 0 && koordY == 0)
-{
-    Console.WriteLine("точка непринадлежит какой-либо четверти, она находится в центре координатной плоскости.");
-}
-else if (koordX == 0 || koordY == 0)
-{
-    Console.WriteLine("точка непринадлежит какой-либо четверти, она лежит на кординатной оси");
-}
-else
-{
-    Console.WriteLine("!!!не предвиденная ситуация!!!");
 }
