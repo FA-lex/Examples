@@ -15,7 +15,7 @@ void findPointCross(float k1, float b1, float k2, float b2) //функция п�
     else 
     {
         float x = (b2 - b1) / (k1 - k2);
-        float y = k1 * x - b1;
+        float y = k1 * x + b1;
         Console.WriteLine($"Координаты точки пересечения прямых: ({x}:{y})");
     }
     
